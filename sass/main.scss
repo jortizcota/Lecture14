@@ -1,0 +1,46 @@
+%alerts{
+    border: 1px solid #ccc;
+    color: black;
+    padding: 10px;
+}
+.info{
+    @extend %alerts;
+    background: blue;
+}
+.success{
+    @extend %alerts;
+    background: greenyellow;
+}
+.warning{
+    @extend %alerts;
+    background: yellow;
+}
+.error{
+    @extend %alerts;
+    background: red;
+}
+@mixin title {
+    text-decoration: underline;
+    color: darkmagenta;
+    font-size: 2em;
+}
+.title{
+    @include title;
+}
+@mixin list{
+    li{
+        font-size: 1em;
+        color: hotpink;
+    }
+}
+.list{
+    @include list;
+}
+@mixin text {
+    border: 1px dashed violet;
+    font-size: 1em;
+    color: purple;
+}
+.text{
+    @include text;
+}

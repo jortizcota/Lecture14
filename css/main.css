@@ -1,0 +1,30 @@
+.info, .success, .warning, .error {
+  border: 1px solid #ccc;
+  color: black;
+  padding: 10px; }
+
+.info {
+  background: blue; }
+
+.success {
+  background: greenyellow; }
+
+.warning {
+  background: yellow; }
+
+.error {
+  background: red; }
+
+.title {
+  text-decoration: underline;
+  color: darkmagenta;
+  font-size: 2em; }
+
+.list li {
+  font-size: 1em;
+  color: hotpink; }
+
+.text {
+  border: 1px dashed violet;
+  font-size: 1em;
+  color: purple; }
